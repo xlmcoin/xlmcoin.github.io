@@ -1,50 +1,19 @@
-# Ultra Stellar <ultrastellar.github.io>
+# XLMCOIN <xlmcoin.github.io>
 VERSION="2.2.0"
-NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 [DOCUMENTATION]
-ORG_NAME="UltraStellar"
-ORG_URL="https://ultrastellar.github.io/"
-ORG_LOGO = "https://ultrastellar.github.io/images/logo.png"
-ORG_OFFICIAL_EMAIL="parsunnetwork@gmail.com"
-ORG_DESCRIPTION="The Stellar Asset Platform is a decentralized marketplace for buying, selling, and trading digital assets on the Stellar network. Users can create and issue their own digital tokens, representing ownership of real-world assets such as currencies, commodities, stocks, or property. These tokens can be securely traded with other users on the platform, enabling instant settlement and low transaction costs."
+ORG_NAME="XLMCOIN"
+ORG_URL="https://xlmcoin.github.io"
+ORG_LOGO="https:/xlmcoin.github.io/images/Stellar-Network-XLM.jpg"
+ORG_DESCRIPTION="The Stellar Network Assets Platform allows users to issue and manage digital assets on the Stellar blockchain."
 
 [[CURRENCIES]]
-code = "DOLLAR"
-name = "United States Dollar"
-issuer = "GD2BLM5FE37WKPHTKKVA55NUKGNS3UO2LP7K5KOCOMC5I5S6PL7GJPEH"
-is_asset_anchored = false
-display_decimals = 7
-desc="The United States Dollar, often symbolized by the code USD, is the official currency of the United States of America. It is one of the most widely used currencies in the world and is often referred to as the greenback due to the signature green color of the bills. The US Dollar is divided into 100 smaller units called cents. It is managed and issued by the Federal Reserve System, which is the central banking system of the United States. The US Dollar is used not only in the United States but also in many other countries around the world as a widely accepted reserve currency for international trade and finance."
-image="https://ultrastellar.github.io/images/dollar.png"
-conditions="the USD is considered a stable and reliable currency, backed by the strong economy and financial system of the United States."
-
-[[CURRENCIES]]
-code = "EURO"
-name = "European Union"
-issuer = "GD2BLM5FE37WKPHTKKVA55NUKGNS3UO2LP7K5KOCOMC5I5S6PL7GJPEH"
-is_asset_anchored = false
-display_decimals = 7
-desc="The European Union (EU) is a political and economic union of 27 member countries located primarily in Europe. It was established after World War II with the goal of promoting peace, stability, and economic prosperity in the region. The EU is governed by supranational institutions such as the European Commission, European Parliament, and Council of the European Union."
-image="https://ultrastellar.github.io/images/euro.png"
-conditions="Compliance with EU regulations and directives."
-
-[[CURRENCIES]]
-code = "RUBLE"
-name = "Russian Ruble"
-issuer = "GD2BLM5FE37WKPHTKKVA55NUKGNS3UO2LP7K5KOCOMC5I5S6PL7GJPEH"
-is_asset_anchored = false
-display_decimals = 7
-desc="The ruble is the official currency of Russia. It is represented by the symbol ₽ and the currency code RUB. The ruble is divided into 100 kopeks. It is one of the oldest currencies in the world, with a history dating back to the 14th century. The ruble is issued and regulated by the Central Bank of the Russian Federation."
-image="https://ultrastellar.github.io/images/ruble.png"
-conditions="International trade rules"
-
-[[CURRENCIES]]
-code = "YUAN"
-name = "Chinese Yuan Renminbi"
-issuer = "GD2BLM5FE37WKPHTKKVA55NUKGNS3UO2LP7K5KOCOMC5I5S6PL7GJPEH"
-is_asset_anchored = false
-display_decimals = 7
-desc="Yuan is the basic unit of currency in China. It is also known as the renminbi (RMB) and is issued by the People's Bank of China. The yuan is used for all types of transactions in China and is often represented by the symbol ¥. It is one of the most traded currencies in the world and is considered as an important currency in the global economy."
-image="https://ultrastellar.github.io/images/yuan.png"
-conditions="The value of the YUAN token is pegged to the value of the Chinese yuan, providing stability and security for users."
+code=""
+name=""
+issuer=""
+is_asset_anchored=false
+display_decimals=7
+desc=""
+image="https://xlmcoin.github.io/images/ten.png"
+conditions=""
