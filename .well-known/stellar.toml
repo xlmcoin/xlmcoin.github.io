@@ -14,6 +14,8 @@ name=""
 issuer=""
 is_asset_anchored=false
 display_decimals=7
-desc=""
+desc="TEN is a cutting-edge digital asset that combines advanced blockchain technology with a focus on decentralized finance (DeFi). It aims to provide users with seamless access to secure, transparent financial transactions while fostering community-driven growth and innovation. With a commitment to sustainability and scalability, TEN is poised to transform the financial landscape for individuals and businesses alike."
 image="https://xlmcoin.github.io/images/ten.png"
-conditions=""
+conditions="maximum_supply=100000000000"
+is_transferable="true"
+is_issuer_verified="true"
