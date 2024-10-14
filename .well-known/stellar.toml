@@ -5,7 +5,7 @@ NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 [DOCUMENTATION]
 ORG_NAME="XLMCOIN"
 ORG_URL="https://xlmcoin.github.io"
-ORG_LOGO="https:/xlmcoin.github.io/images/Stellar-Network-XLM.jpg"
+ORG_LOGO="https:/xlmcoin.github.io/images/logo.jpg"
 ORG_DESCRIPTION="The Stellar Network Assets Platform allows users to issue and manage digital assets on the Stellar blockchain."
 
 [[CURRENCIES]]
