@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" href="favicon.ico">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.0.1/stellar-sdk.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-freighter-api/1.1.2/index.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="homepage.css">
-    <!-- below mvote external js file -->
-    <script type="text/javascript" src="basic.js"></script>
-    <title>XLMCOIN</title>
+    <title>XLMCOIN - Stellar Network Assets Platform</title>
+    <link rel="stylesheet" href="bootstrap.min.css"> <!-- Optional: Link to external CSS -->
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('pics/Stellar-City.jpg'); /* Path to your PNG file */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+   
+        .button:hover {
+            background-color: rgba(255, 255, 255, 1);
+        }
+    </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container" id="blur">
-        <div class="top_navbar">
-            <div class="top_navbar_ctn">
-                <div class="top-left">
-                    <div class="top-left-ctn">
-                        <div class="home-icon">
-                            <a href="index.html">
-                                <img src="./pics/digi.png" width="70" height="70">
-                            </a>
-                        </div>
-                        <div class="home">
-                            <a href="index.html" class="home-link"><b>XLMCOIN</b>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            
-                        <div class="menu-login-ctn">
-                            <div class="menu-login-main">
-                                <div class="menu-login-btn">
-                                    <a href="mvote.html" class="login_button">
-                                        Connect Wallet
-                                    </a>
-                                </div>
-                                <div class="menu-login-arrow" onclick="toggle_logout()">
-                                    <i class="fa fa-arrow-down active" id="login-arrow-down"></i>
-                                    <i class="fa fa-arrow-up" id="login-arrow-up"></i>
-                                </div>
-                            </div>
-                            <div class="menu-user">
-                                <div class="menu-user-ctn" onclick="logout()">
-                                    <div class="user-icon" ><i class="fa fa-power-off"></i></div>
-                                    <div class="user-logout">Log out</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="content">
-                <div class="content_head">
-                    <h2><b>🔧 Technologies & Tools Thank you for visiting my GitHub profile! 🚀 Explanation of the Structure: I'm glad you think so!</b></h2>
-                </div>
-               
+    <header>
+        <h1>XLMCOIN</h1>
+        <h2>Stellar Network Assets Platform</h2>
+    </header>
 
+    <main>
+        <p>Welcome to XLMCOIN, your gateway to trading and managing Stellar network assets. Join a vibrant community and explore the potential of Stellar's financial technology.</p>
+
+        <a href="https://www.stellarx.com/markets/SEC:GDLLGBPQSKLJ2WX2MKEJ4PK24MR3D4GJLKGUFIWCJHU7EGTJ27EUDSEC/native" class="button">Trade Now</a>
+        <a href="https://stellar.expert/explorer/public/asset/SEC-GDLLGBPQSKLJ2WX2MKEJ4PK24MR3D4GJLKGUFIWCJHU7EGTJ27EUDSEC" class="button">Dashboard</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 XLMCOIN. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
