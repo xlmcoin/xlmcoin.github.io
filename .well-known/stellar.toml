@@ -1,20 +1,16 @@
-# XLMCOIN <xlmcoin.github.io>
-VERSION="2.2.0"
-NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
-
 [DOCUMENTATION]
 ORG_NAME="XLMCOIN"
-ORG_URL="https://xlmcoin.github.io/"
-ORG_LOGO = "https://xlmcoin.github.io/favicon.ico"
+ORG_URL="https://xlmcoin.github.io"
 ORG_SUPPORT_EMAIL="parsunnetwork@gmail.com"
-ORG_DESCRIPTION="Founded to help our country respond to the Great Depression, we’re the agency that protects investors from misconduct, promotes fairness & efficiency in the securities markets, and facilitates capital formation for those looking to hire, innovate, and grow."
+ORG_DESCRIPTION="Stellar Network Assets Platform"
+ORG_LOGO = "https://xlmcoin.github.io/favicon.ico"
 
 [[CURRENCIES]]
-code = "SEC"
-name = "U.S. Securities and Exchange Commission (SEC)"
-issuer = "GDLLGBPQSKLJ2WX2MKEJ4PK24MR3D4GJLKGUFIWCJHU7EGTJ27EUDSEC"
-is_asset_anchored = false
-display_decimals = 7
-desc="The U.S. Securities and Exchange Commission (SEC) is an independent agency of the United States federal government, created in the aftermath of the Wall Street Crash of 1929. Its primary purpose is to enforce laws against market manipulation."
-image="https://xlmcoin.github.io/icons/sec.png"
-conditions="We make markets work better"
+code=""
+name=""
+issuer=""
+desc=""
+image=""
+conditions=""
+display_decimals=7
+is_asset_anchored=false
