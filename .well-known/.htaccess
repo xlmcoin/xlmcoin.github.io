@@ -1,4 +1,0 @@
-# the stellar.toml file route
- /.well-known/stellar.toml  
-  Access-Control-Allow-Origin: *
-  Content-Type: text/plain
