@@ -1,92 +1,651 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XLMCOIN - Stellar Network Assets Platform</title>
-    <link rel="stylesheet" href="bootstrap.min.css"> <!-- Optional: Link to external CSS -->
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-image: url('pics/Stellar-City.jpg'); /* Path to your PNG file */
-            background-size: cover;
-            font-family: Arial, sans-serif;
-            color: white;
-            text-align: center;
-        }
-   
-        .button:hover {
-            background-color: rgba(255, 255, 255, 1);
-        }
-    </style>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #003366;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 5px;
-            background: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-        .button:hover {
-            background: #0056b3;
-        }
-        footer {
-            position: relative;
-            bottom: 0;
-            width: 100%;
-            background: #003366;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-    </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>XLMCOIN — Stellar Network Assets Platform</title>
+
+<meta name="description" content="XLMCOIN is a futuristic Stellar Network Assets Platform focused on decentralized finance, trading, blockchain innovation, and Stellar ecosystem growth.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#050816;
+    color:#ffffff;
+    overflow-x:hidden;
+    position:relative;
+}
+
+/* Background Effects */
+
+.bg-grid{
+    position:fixed;
+    inset:0;
+    background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size:60px 60px;
+    z-index:-3;
+}
+
+.glow-1{
+    position:fixed;
+    width:600px;
+    height:600px;
+    background:#7c3aed;
+    border-radius:50%;
+    filter:blur(180px);
+    top:-200px;
+    left:-150px;
+    opacity:.25;
+    z-index:-2;
+}
+
+.glow-2{
+    position:fixed;
+    width:500px;
+    height:500px;
+    background:#06b6d4;
+    border-radius:50%;
+    filter:blur(160px);
+    bottom:-200px;
+    right:-150px;
+    opacity:.25;
+    z-index:-2;
+}
+
+/* Header */
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:1000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:22px 8%;
+    background:rgba(5,8,22,.6);
+    backdrop-filter:blur(18px);
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.logo{
+    font-size:2rem;
+    font-weight:900;
+    letter-spacing:1px;
+    background:linear-gradient(90deg,#7c3aed,#22d3ee);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+nav{
+    display:flex;
+    gap:32px;
+}
+
+nav a{
+    color:#cbd5e1;
+    text-decoration:none;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffffff;
+}
+
+/* Hero */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:150px 8% 80px;
+    position:relative;
+}
+
+.hero-content{
+    max-width:980px;
+}
+
+.hero-badge{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:12px 22px;
+    border-radius:999px;
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.08);
+    backdrop-filter:blur(12px);
+    margin-bottom:32px;
+    color:#cbd5e1;
+    animation:float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{transform:translateY(0)}
+    50%{transform:translateY(-8px)}
+    100%{transform:translateY(0)}
+}
+
+.hero h1{
+    font-size:5.6rem;
+    line-height:1;
+    font-weight:900;
+    margin-bottom:30px;
+    background:linear-gradient(90deg,#ffffff,#d8b4fe,#67e8f9);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.hero p{
+    max-width:820px;
+    margin:auto;
+    color:#cbd5e1;
+    line-height:1.9;
+    font-size:1.15rem;
+    margin-bottom:45px;
+}
+
+.hero-buttons{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+/* Buttons */
+
+.btn{
+    text-decoration:none;
+    padding:18px 34px;
+    border-radius:18px;
+    font-weight:700;
+    transition:.35s;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    letter-spacing:.3px;
+}
+
+.primary-btn{
+    background:linear-gradient(135deg,#7c3aed,#06b6d4);
+    color:#ffffff;
+    box-shadow:0 15px 45px rgba(59,130,246,.35);
+}
+
+.primary-btn:hover{
+    transform:translateY(-5px) scale(1.03);
+    box-shadow:0 20px 60px rgba(59,130,246,.55);
+}
+
+.secondary-btn{
+    border:1px solid rgba(255,255,255,.12);
+    background:rgba(255,255,255,.04);
+    color:#ffffff;
+    backdrop-filter:blur(12px);
+}
+
+.secondary-btn:hover{
+    background:rgba(255,255,255,.08);
+    transform:translateY(-4px);
+}
+
+/* Sections */
+
+section{
+    padding:110px 8%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.section-title h2{
+    font-size:3rem;
+    margin-bottom:18px;
+    background:linear-gradient(90deg,#ffffff,#67e8f9);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.section-title p{
+    max-width:720px;
+    margin:auto;
+    color:#94a3b8;
+    line-height:1.8;
+}
+
+/* Cards */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:28px;
+}
+
+.card{
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:28px;
+    padding:40px 32px;
+    backdrop-filter:blur(18px);
+    transition:.35s;
+    position:relative;
+    overflow:hidden;
+}
+
+.card::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:linear-gradient(135deg,transparent,rgba(255,255,255,.08),transparent);
+    opacity:0;
+    transition:.4s;
+}
+
+.card:hover::before{
+    opacity:1;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border-color:rgba(103,232,249,.35);
+    box-shadow:0 25px 55px rgba(0,0,0,.4);
+}
+
+.card-icon{
+    width:64px;
+    height:64px;
+    border-radius:18px;
+    background:linear-gradient(135deg,#7c3aed,#06b6d4);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:24px;
+    font-size:1.6rem;
+    font-weight:800;
+}
+
+.card h3{
+    margin-bottom:18px;
+    font-size:1.35rem;
+}
+
+.card p{
+    color:#cbd5e1;
+    line-height:1.8;
+}
+
+/* Stats */
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:24px;
+}
+
+.stat-box{
+    padding:38px;
+    text-align:center;
+    border-radius:24px;
+    background:rgba(255,255,255,.04);
+    border:1px solid rgba(255,255,255,.08);
+    backdrop-filter:blur(18px);
+}
+
+.stat-box h3{
+    font-size:2.8rem;
+    margin-bottom:10px;
+    color:#67e8f9;
+}
+
+.stat-box p{
+    color:#cbd5e1;
+}
+
+/* CTA */
+
+.cta{
+    text-align:center;
+    padding:90px 50px;
+    border-radius:32px;
+    background:
+    linear-gradient(135deg,
+    rgba(124,58,237,.2),
+    rgba(6,182,212,.12));
+    border:1px solid rgba(255,255,255,.08);
+    backdrop-filter:blur(18px);
+}
+
+.cta h2{
+    font-size:3.2rem;
+    margin-bottom:22px;
+}
+
+.cta p{
+    max-width:780px;
+    margin:auto;
+    color:#cbd5e1;
+    line-height:1.9;
+    margin-bottom:42px;
+}
+
+/* Footer */
+
+footer{
+    padding:45px 8%;
+    text-align:center;
+    border-top:1px solid rgba(255,255,255,.08);
+    background:rgba(255,255,255,.02);
+    color:#94a3b8;
+}
+
+/* Responsive */
+
+@media(max-width:950px){
+
+    .hero h1{
+        font-size:4rem;
+    }
+
+    .section-title h2,
+    .cta h2{
+        font-size:2.3rem;
+    }
+
+}
+
+@media(max-width:760px){
+
+    nav{
+        display:none;
+    }
+
+    .hero{
+        padding-top:170px;
+    }
+
+    .hero h1{
+        font-size:3rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+    .btn{
+        width:100%;
+    }
+
+}
+
+</style>
 </head>
+
 <body>
-    <header>
-        <h1>XLMCOIN</h1>
-        <h2>Stellar Network Assets Platform</h2>
-    </header>
 
-    <main>
-        <p>Welcome to XLMCOIN, your gateway to trading and managing Stellar network assets. Join a vibrant community and explore the potential of Stellar's financial technology.</p>
-<p> Asset Code : 
-    <b> SEC </b> 
-</p>
-        <p> Asset Issuer : 
-            <b> GDLLGBPQSKLJ2WX2MKEJ4PK24MR3D4GJLKGUFIWCJHU7EGTJ27EUDSEC </b> </p>
-        <p> Total Supply : 
-    <b> 100,000,000,000 </b> 
-</p>
-        <a href="https://www.stellarx.com/markets/SEC:GDLLGBPQSKLJ2WX2MKEJ4PK24MR3D4GJLKGUFIWCJHU7EGTJ27EUDSEC/native" class="button">Trade Now</a>
-        <a href="https://stellar.expert/explorer/public/asset/SEC-GDLLGBPQSKLJ2WX2MKEJ4PK24MR3D4GJLKGUFIWCJHU7EGTJ27EUDSEC" class="button">Dashboard</a>
-    </main>
+<div class="bg-grid"></div>
+<div class="glow-1"></div>
+<div class="glow-2"></div>
 
-    <footer>
-        <p>&copy; 2024 XLMCOIN. All Rights Reserved.</p>
-    </footer>
+<header>
+
+<div class="logo">XLMCOIN</div>
+
+<nav>
+<a href="#features">Features</a>
+<a href="#ecosystem">Ecosystem</a>
+<a href="#market">Market</a>
+<a href="#future">Future</a>
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="hero-badge">
+⚡ Stellar Powered Blockchain Ecosystem
+</div>
+
+<h1>
+XLMCOIN
+<br>
+Stellar Network
+Assets Platform
+</h1>
+
+<p>
+XLMCOIN is a futuristic Stellar-based assets platform designed for decentralized trading, token innovation, blockchain finance, and next-generation digital asset experiences. Fast, scalable, secure, and built for the future of Web3.
+</p>
+
+<div class="hero-buttons">
+
+<a href="https://stellarterm.com/" target="_blank" class="btn primary-btn">
+🚀 Launch Stellarterm Market
+</a>
+
+<a href="#features" class="btn secondary-btn">
+Explore Ecosystem
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section id="features">
+
+<div class="section-title">
+<h2>Premium Platform Features</h2>
+
+<p>
+Powerful Stellar ecosystem infrastructure for decentralized finance, asset management, liquidity access, and blockchain innovation.
+</p>
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<div class="card-icon">⚡</div>
+
+<h3>Instant Transactions</h3>
+
+<p>
+Powered by Stellar blockchain speed with near-instant settlement and ultra-low transaction costs worldwide.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="card-icon">🌐</div>
+
+<h3>Decentralized Trading</h3>
+
+<p>
+Access Stellar decentralized exchange liquidity and trade blockchain assets securely across the ecosystem.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="card-icon">🔒</div>
+
+<h3>Secure Infrastructure</h3>
+
+<p>
+Built with transparent blockchain architecture focused on reliability, security, scalability, and global access.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="card-icon">💎</div>
+
+<h3>Asset Innovation</h3>
+
+<p>
+Create, manage, and expand digital assets inside a premium Stellar-powered decentralized environment.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ECOSYSTEM -->
+
+<section id="ecosystem">
+
+<div class="section-title">
+
+<h2>Built For The Stellar Future</h2>
+
+<p>
+Designed with futuristic aesthetics, scalable blockchain infrastructure, and premium decentralized finance capabilities.
+</p>
+
+</div>
+
+<div class="stats">
+
+<div class="stat-box">
+<h3>24/7</h3>
+<p>Global Decentralized Access</p>
+</div>
+
+<div class="stat-box">
+<h3>0.00001</h3>
+<p>Ultra Low Stellar Fees</p>
+</div>
+
+<div class="stat-box">
+<h3>Fast</h3>
+<p>Blockchain Finality Speed</p>
+</div>
+
+<div class="stat-box">
+<h3>Secure</h3>
+<p>Enterprise-Ready Infrastructure</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- MARKET -->
+
+<section id="market">
+
+<div class="cta">
+
+<h2>Trade XLMCOIN On Stellarterm</h2>
+
+<p>
+Connect directly to the Stellar decentralized ecosystem and access advanced blockchain trading opportunities, liquidity markets, and asset discovery through Stellarterm.
+</p>
+
+<a href="https://stellarterm.com/" target="_blank" class="btn primary-btn">
+✨ Open Stellarterm Market
+</a>
+
+</div>
+
+</section>
+
+<!-- FUTURE -->
+
+<section id="future">
+
+<div class="section-title">
+
+<h2>Why XLMCOIN?</h2>
+
+<p>
+XLMCOIN combines futuristic branding, blockchain scalability, and Stellar-powered innovation into one premium digital ecosystem.
+</p>
+
+</div>
+
+<div class="grid">
+
+<div class="card">
+
+<div class="card-icon">🚀</div>
+
+<h3>Modern Web3 Design</h3>
+
+<p>
+Premium cyber-inspired interface with immersive gradients, glassmorphism effects, and futuristic visuals.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="card-icon">📈</div>
+
+<h3>Scalable Ecosystem</h3>
+
+<p>
+Designed for future token growth, ecosystem partnerships, decentralized applications, and global adoption.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="card-icon">🌍</div>
+
+<h3>Worldwide Access</h3>
+
+<p>
+Accessible globally with Stellar interoperability, decentralized finance support, and blockchain connectivity.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 XLMCOIN — Stellar Network Assets Platform • Powered By Stellar Blockchain
+
+</footer>
+
 </body>
 </html>
