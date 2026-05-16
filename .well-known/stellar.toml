@@ -2,8 +2,9 @@
 ORG_NAME="XLMCOIN"
 ORG_URL="https://xlmcoin.github.io"
 ORG_SUPPORT_EMAIL="parsunnetwork@gmail.com"
-ORG_DESCRIPTION="Stellar Network Assets Platform"
-ORG_LOGO = "https://xlmcoin.github.io/favicon.ico"
+ORG_LOGO="https://xlmcoin.github.io/favicon.ico"
+ORG_DESCRIPTION="XLMCOIN is a futuristic Stellar Network Assets Platform focused on decentralized trading, digital assets, blockchain innovation, and fast low-cost financial transactions powered by the Stellar blockchain."
+
 
 [[CURRENCIES]]
 code=""
