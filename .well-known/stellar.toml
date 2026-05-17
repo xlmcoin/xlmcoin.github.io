@@ -176,7 +176,7 @@ display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="PENDULUM"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
 name="Pendulum"
 desc="Pendulum's interoperable blockchain brings together high-quality fiat tokens in a single, powerful DeFi network."
@@ -216,120 +216,120 @@ display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="QIDAO"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="QiDao"
+desc="With Qi Dao, you can take control of your MAI holdings and access the value of your assets. Start managing your assets today by creating a vault on QiDao."
 image="https://xlmcoin.github.io/icons/qidao.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="RMRK"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="RMRK"
+desc="RMRK is a blockchain project that brings non-fungible tokens (NFTs) to Polkadot via its Canary Network (a sandbox environment for developers to experiment with Polkadot infrastructure) Kusama."
 image="https://xlmcoin.github.io/icons/rmrk.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="SQUID"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="Squid"
+desc="Squid is a cross-chain platform spanning infrastructure, developer tools, and consumer products, all powered by the same routing and execution engine."
 image="https://xlmcoin.github.io/icons/squid.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="SUBSOCIAL"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="subsocial"
+desc="Blockchain data across 225+ networks, real-time, historical, validated. From free API to dedicated enterprise portals."
 image="https://xlmcoin.github.io/icons/subsocial.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="SUBSQUID"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="subsquid"
+desc="Blockchain data across 225+ networks, real-time, historical, validated. From free API to dedicated enterprise portals."
 image="https://xlmcoin.github.io/icons/subsquid.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="SUBWALLET"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="subwallet"
+desc="Cold-level security with hot-level access — store your crypto smartly."
 image="https://xlmcoin.github.io/icons/subwallet.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="TALISMAN"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="talisman"
+desc="Talisman is a secure self-custody wallet designed for a seamless multichain experience."
 image="https://xlmcoin.github.io/icons/talisman.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="TRANSAK"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="transak"
+desc="Scalable and reliable ramp infrastructure for global payments providers."
 image="https://xlmcoin.github.io/icons/transak.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="UNITEDBLOC"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="UnitedBloc"
+desc="UnitedBloc is a decentralized autonomous organization (DAO) formed by a coalition of independent collators within the Moonbeam ecosystem."
 image="https://xlmcoin.github.io/icons/UnitedBloc.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="WORMHOLE"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="wormhole"
+desc="Wormhole connects blockchains with secure, open-source multichain infrastructure. Move tokens, data, and assets across networks. Start building today."
 image="https://xlmcoin.github.io/icons/wormhole.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="ZEITGEIST"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="zeitgeist"
+desc="Zeitgeist is built using the Substrate blockchain framework, the same infrastructure used to build the Polkadot and Kusama networks."
 image="https://xlmcoin.github.io/icons/zeitgeist.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="ZOODAO"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="zoodao"
+desc="ZooDAO is the main governance DAO for Zoo Labs Foundation, coordinating global conservation efforts through decentralized governance."
 image="https://xlmcoin.github.io/icons/zoodao.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
