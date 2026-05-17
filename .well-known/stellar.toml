@@ -166,20 +166,10 @@ display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="ORIGINTRAIL"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
-image="https://xlmcoin.github.io/icons/nova.png"
-conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
-display_decimals=7
-is_asset_anchored=false
-
-[[CURRENCIES]]
-code=""
-issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="OriginTrail"
+desc="Discover OriginTrail's ecosystem, organizing knowledge in a Decentralized Knowledge Graph to enable trustworthy, verifiable AI with humans in the loop."
 image="https://xlmcoin.github.io/icons/origin_trail.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
@@ -188,38 +178,38 @@ is_asset_anchored=false
 [[CURRENCIES]]
 code=""
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="Pendulum"
+desc="Pendulum's interoperable blockchain brings together high-quality fiat tokens in a single, powerful DeFi network."
 image="https://xlmcoin.github.io/icons/pendulum.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="PAHLA"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="Phala"
+desc="Phala Cloud delivers confidential AI on TEE-protected GPUs — private LLM inference, sealed agents, and verifiable compute on Intel TDX + NVIDIA H100/H200."
 image="https://xlmcoin.github.io/icons/phala.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="POLKADOT"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="Polkadot"
+desc="Polkadot Insider is a valuable resource for anyone interested in the latest Polkadot ecosystem news. This platform provides up-to-date news, insights, and graphic resources about the developments within the Polkadot network, making it a crucial tool for investors, and enthusiasts alike."
 image="https://xlmcoin.github.io/icons/polkadot_insider.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
 
 [[CURRENCIES]]
-code=""
+code="PRIME"
 issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
-name=""
-desc=""
+name="Prime"
+desc="Prime chain is linked to block hash to preserve the security property of Nakamoto's Bitcoin, while a continuous difficulty evaluation scheme is designed to allow prime chain to act as adjustable-difficulty proof-of-work in a Bitcoin like cryptocurrency."
 image="https://xlmcoin.github.io/icons/prime.png"
 conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
