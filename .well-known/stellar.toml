@@ -5,13 +5,373 @@ ORG_SUPPORT_EMAIL="parsunnetwork@gmail.com"
 ORG_LOGO="https://xlmcoin.github.io/favicon.ico"
 ORG_DESCRIPTION="XLMCOIN is a futuristic Stellar Network Assets Platform focused on decentralized trading, digital assets, blockchain innovation, and fast low-cost financial transactions powered by the Stellar blockchain."
 
+[[CURRENCIES]]
+code="ACALA"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Acala Network"
+desc="Acala is the utility token that powers the liquidity layer of decentralized finance"
+image="https://xlmcoin.github.io/icons/acala.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="ALGEBRA"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Algebra Labs"
+desc="Leading DEX Infrastructure - EVM's leading DEX infrastructure"
+image="https://xlmcoin.github.io/icons/algebra.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="ASTAR"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Astar"
+desc="Astar is a web3 collective building products that bring users onchain and generate long-term value for ASTR."
+image="https://xlmcoin.github.io/icons/astar.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="AXELAR"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Axelar"
+desc="Axelar connects institutions to the entire onchain ecosystem through one integration."
+image="https://xlmcoin.github.io/icons/axelar.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="BEEFY"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Beefy"
+desc="Beefy is a Decentralized, Multichain Yield Optimizer that allows its users to earn compound interest on their crypto holdings. Beefy earns you the highest APYs with safety and efficiency in mind."
+image="https://xlmcoin.github.io/icons/beefy.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="BICONOMY"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Biconomy"
+desc="The smart wallet and execution engine for high performance DeFi and autonomous AI Agents. Enable guardrails, access deep liquidity and automate workflows."
+image="https://xlmcoin.github.io/icons/bico.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="BIFROST"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Bifrost"
+desc="The Staking Yield Layer For Digital Assets"
+image="https://xlmcoin.github.io/icons/bifrost.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="CEDE"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Cede"
+desc="Cede Hub is a platform that allows users to participate in trading campaigns for specific centralized exchange (CEX) trading pairs and compete to win rewards."
+image="https://xlmcoin.github.io/icons/cede.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="CENTRIFUGE"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Centrifuge"
+desc="Centrifuge’s real-world asset tokenization platform‍ - brings the full power of onchain finance to asset managers and investors."
+image="https://xlmcoin.github.io/icons/centrifuge.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="GAMMA"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Gamma"
+desc="Gamma.io is a Bitcoin NFT marketplace and a home for your web3 social identity."
+image="https://xlmcoin.github.io/icons/gamma.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="INTERLAY"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Interlay"
+desc="Interlay is a modular, programmable layer between Bitcoin and the multi-chain ecosystem that unlocks decentralized (financial) use cases for BTC."
+image="https://xlmcoin.github.io/icons/interlay.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code="LIDO"
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name="Lido"
+desc="Decentralized staking with stETH Empowering and securing Ethereum since 2020 2.4% APR $19,341,489,929 TVL"
+image="https://xlmcoin.github.io/icons/lido.png"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
 
 [[CURRENCIES]]
 code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
 name=""
-issuer=""
 desc=""
-image=""
-conditions=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
 display_decimals=7
 is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
+[[CURRENCIES]]
+code=""
+issuer="GAWNTDIJ5ZBUSLLU22B6XUEVU6PVER5CB7NRITGJ2X2OMOYUUWV5CLIX"
+name=""
+desc=""
+image="https://xlmcoin.github.io/icons/"
+conditions="High-performance Stellar ecosystem asset designed for liquidity, payments, and decentralized utility"
+display_decimals=7
+is_asset_anchored=false
+
